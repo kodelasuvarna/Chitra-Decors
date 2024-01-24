@@ -214,7 +214,7 @@ button {
 }
 
 .layout_padding {
-  padding-top: 90px;
+  padding-top: 40px;
   padding-bottom: 0px;
 }
 
@@ -256,9 +256,17 @@ button {
 }
 
 .search_icon {
-  width: 12%;
+  width: 50%;
   float: left;
 }
+/* @media (max-width: 575px) {
+  .search_icon {
+    width: 50%;
+  }
+  .my-lg-0 {
+    width: 50%;
+  }
+} */
 .search_icon ul {
   margin: 0px;
   padding: 0px;
@@ -292,7 +300,7 @@ button {
 .mb-lg-0,
 .my-lg-0 {
   margin-bottom: 0 !important;
-  width: 25%;
+  width: 50%;
   float: left;
 }
 .banner_section {
@@ -401,10 +409,10 @@ button {
   font-size: 32px;
   color: maroon;
   font-family: "Playfair Display", Sans-serif !important;
-
+  text-decoration: underline;
   line-height: 1.3em;
   text-align: center;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 .many_taital {
   width: 100%;
@@ -516,7 +524,7 @@ button {
   width: 100%;
   float: left;
   padding-bottom: 90px;
-  background-color: cornflowerblue;
+  /* background-color: cornflowerblue; */
 }
 .furnitures_section1 {
   width: 100%;
@@ -679,7 +687,7 @@ a:hover {
 .projects_section2 {
   width: 100%;
   float: left;
-  padding-top: 60px;
+  padding-top: 40px;
 }
 
 .container_main1 {
@@ -784,12 +792,13 @@ a:hover {
   float: left;
   padding-top: 50px;
   padding-bottom: 90px;
+  background-color: rgb(250, 42, 42);
 }
 .client_text {
   width: 100%;
   float: left;
   font-size: 32px;
-  color: maroon;
+  color: orange;
   text-transform: uppercase;
   text-align: center;
   text-decoration: underline;
@@ -802,7 +811,7 @@ a:hover {
 .client_1 {
   width: 60%;
   float: left;
-  border: 1px solid #000;
+  border: 2px solid black;
   padding: 17px 17px 0px 17px;
 }
 .image_7 {
@@ -821,21 +830,21 @@ a:hover {
   width: 100%;
   float: left;
   font-size: 20px;
-  color: maroon;
+  color: orange;
   text-transform: uppercase;
 }
 .dolor_ipsum_text {
   width: 100%;
   float: left;
   font-size: 16px;
-  color: #191919;
+  color: white;
   margin-left: 0px;
   margin-top: 0px;
 }
 .client_2 {
   width: 60%;
   float: right;
-  border: 1px solid #000;
+  border: 2px solid #000;
   padding: 17px 17px 0px 17px;
   margin-top: 30px;
 }
@@ -1035,7 +1044,8 @@ textarea#comment::placeholder {
   margin-left: 0px;
 }
 .copyright_text a {
-  color: #000;
+  color: green;
+  font-weight: 600;
 }
 .copyright_text a:hover {
   color: #fdbe28;
