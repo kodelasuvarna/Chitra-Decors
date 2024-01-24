@@ -516,6 +516,7 @@ button {
   width: 100%;
   float: left;
   padding-bottom: 90px;
+  background-color: cornflowerblue;
 }
 .our_text {
   width: 100%;
@@ -602,7 +603,7 @@ a:hover {
 .dololr_text {
   width: 100%;
   float: left;
-  font-size: 18px;
+  font-size: 16px;
   color: #121111;
   margin-top: 10px;
   margin-left: 0px;
