@@ -298,7 +298,7 @@ button {
 .banner_section {
   width: 100%;
   float: left;
-  background-image: url(../images/homeslider1.jpg);
+  background-image: url(../images/homeslider-2.jpg);
 
   height: auto;
   padding-bottom: 50px;
@@ -314,16 +314,16 @@ button {
   width: 100%;
   float: left;
   font-size: 70px;
-  color: orange;
+  color: black;
   text-align: center;
   text-transform: uppercase;
-  text-shadow: orangered 0px 0.1em 2px;
+  /* text-shadow: orangered 0px 0.1em 2px; */
 }
 .there_text {
   width: 50%;
   margin: 0 auto;
   font-size: 16px;
-  color: orange;
+  color: black;
   text-align: center;
 }
 .contact_bt_main {
@@ -517,6 +517,12 @@ button {
   float: left;
   padding-bottom: 90px;
   background-color: cornflowerblue;
+}
+.furnitures_section1 {
+  width: 100%;
+  float: left;
+  padding-bottom: 90px;
+  background-color: orange;
 }
 .our_text {
   width: 100%;
