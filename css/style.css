@@ -306,7 +306,7 @@ button {
 .banner_section {
   width: 100%;
   float: left;
-  background-image: url(../images/homeslider-2.jpg);
+  background-image: url(../images/sofa\ .jpeg);
 
   height: auto;
   padding-bottom: 50px;
@@ -318,21 +318,34 @@ button {
   float: left;
   text-align: center;
 }
+.icon_2 {
+  width: 100%;
+  float: left;
+  text-align: center;
+  /* border: 1px solid black;
+  /* border-radius: 25px 25px 25px 25px; */
+}
+
 .furniture_text {
   width: 100%;
   float: left;
-  font-size: 70px;
-  color: black;
+  font-size: 80px;
+  color: rgb(23, 23, 41);
   text-align: center;
   text-transform: uppercase;
   /* text-shadow: orangered 0px 0.1em 2px; */
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding-top: 150px;
+  margin-left: -82px;
 }
 .there_text {
   width: 50%;
   margin: 0 auto;
-  font-size: 16px;
-  color: black;
+  font-size: 20px;
+  color: seagreen;
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 200px;
 }
 .contact_bt_main {
   width: 17%;
@@ -408,7 +421,7 @@ button {
   float: left;
   font-size: 32px;
   color: maroon;
-  font-family: "Playfair Display", Sans-serif !important;
+
   text-decoration: underline;
   line-height: 1.3em;
   text-align: center;
@@ -432,6 +445,15 @@ button {
   float: left;
   font-size: 24px;
   color: #090808;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+.furnitures_text1 {
+  width: 100%;
+  float: left;
+  font-size: 24px;
+  color: orange;
   text-transform: uppercase;
   text-align: center;
   padding-top: 20px;
@@ -477,6 +499,7 @@ button {
   background-color: orange;
   height: auto;
   padding-bottom: 90px;
+  background-image: url(../images/contact-bg.png);
 }
 .image_1 {
   width: 100%;
@@ -609,7 +632,7 @@ a:hover {
   width: 100%;
   float: left;
   font-size: 18px;
-  color: #fabb25;
+  color: black;
   text-transform: uppercase;
   font-weight: bold;
   padding-top: 35px;
@@ -670,7 +693,7 @@ a:hover {
   float: left;
   font-size: 18px;
   color: #ffffff;
-  background-color: #070201;
+  background-color: maroon;
   text-align: center;
   padding: 10px 0px;
   border-radius: 5px;
@@ -678,7 +701,7 @@ a:hover {
 }
 .get_bt a:hover {
   color: #000;
-  background-color: #ffffff;
+  background-color: white;
 }
 .projects_section {
   width: 100%;
@@ -700,12 +723,12 @@ a:hover {
   display: block;
   width: 100%;
   height: auto;
-  transition: 0.5s ease;
-  backface-visibility: hidden;
+  /* transition: 0.5s ease;
+  backface-visibility: hidden; */
 }
 
 .middle {
-  transition: 0.5s ease;
+  /* transition: 0.5s ease; */
   opacity: 0;
   position: absolute;
   top: 50%;
@@ -792,13 +815,15 @@ a:hover {
   float: left;
   padding-top: 50px;
   padding-bottom: 90px;
-  background-color: rgb(250, 42, 42);
+  background-color: orange;
+  background-image: url(../images/contact-bg.png);
+  margin-bottom: 10px;
 }
 .client_text {
   width: 100%;
   float: left;
   font-size: 32px;
-  color: orange;
+  color: maroon;
   text-transform: uppercase;
   text-align: center;
   text-decoration: underline;
@@ -814,6 +839,21 @@ a:hover {
   border: 2px solid black;
   padding: 17px 17px 0px 17px;
 }
+.client_3 {
+  /* width: 40%; */
+  float: left;
+  border: 1px solid black;
+  padding: 30px 20px 20px 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 25px 25px 25px 25px;
+  margin-bottom: 20px;
+
+  border-color: #e1e1e1;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 30px 20px 20px 20px;
+}
+
 .image_7 {
   width: 100%;
   float: left;
@@ -830,7 +870,7 @@ a:hover {
   width: 100%;
   float: left;
   font-size: 20px;
-  color: orange;
+  color: maroon;
   text-transform: uppercase;
 }
 .dolor_ipsum_text {
@@ -917,7 +957,7 @@ textarea#comment::placeholder {
   width: 30%;
   float: left;
   font-size: 20px;
-  color: #989696;
+  color: maroon;
   text-align: center;
   border: 2px solid #ffffff;
   padding: 10px 0px;
