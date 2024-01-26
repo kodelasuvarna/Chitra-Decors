@@ -6,6 +6,15 @@
   .header-search {
     padding: 15px 0px;
   }
+  /* .furniture_text {
+    margin-left: -82px;
+  }
+}
+/*  @media only screen(max-width:991px) {
+  .there_text {
+    margin-left: 200px;
+  } 
+} */
 }
 
 /*------------------------------------------------------------------- 767px x 599px ---------------------------------------------------------------------*/
@@ -147,7 +156,7 @@
     width: 20%;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding-left: 20px;
+    padding-left: 18px;
   }
   .navbar-light .navbar-nav .nav-link {
     font-size: 16px;
@@ -454,7 +463,7 @@
   .icon_1 {
     padding-top: 30px;
   }
-  
+
   .read_bt_main {
     width: 150px;
   }
