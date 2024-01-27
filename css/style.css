@@ -794,7 +794,7 @@ a:hover {
   float: left;
   font-size: 20px;
   text-transform: uppercase;
-  color:maroon;
+  color: maroon;
   position: relative;
   top: -50px;
   text-align: center;
@@ -1051,7 +1051,7 @@ textarea#comment::placeholder {
 }
 .customer_text {
   width: 100%;
-  float: left;
+  /* float: left; */
   font-size: 24px;
   color: #ffffff;
   text-transform: uppercase;
@@ -1070,6 +1070,16 @@ textarea#comment::placeholder {
   font-size: 16px;
   color: #fefefe;
   margin-left: 0px;
+}
+.footer_section .address {
+}
+.footer_section .gmail,
+.footer_section .number,
+.footer_section .address {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 .social_icon {
   width: 100%;
