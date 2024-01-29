@@ -433,14 +433,14 @@ button {
   width: 100%;
   float: left;
   padding-bottom: 90px;
-  background-image: url(../images/bg-2.webp);
+  background-image: url(../images/sofa\ .jpeg);
 }
 .services_taital {
   width: 100%;
   float: left;
   font-size: 32px;
   color: maroon;
-  padding-top: 20px;
+  padding-top: 40px;
 
   text-decoration: underline;
   line-height: 1.3em;
@@ -477,6 +477,7 @@ button {
   text-transform: uppercase;
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 20px;
 }
 .dummy_text {
   width: 100%;
@@ -539,7 +540,7 @@ button {
   width: 100%;
   float: left;
   font-size: 16px;
-  color: #ffffff;
+  color: black;
   margin-left: 0px;
   padding-top: 40px;
 }
