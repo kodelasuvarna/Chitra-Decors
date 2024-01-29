@@ -425,9 +425,21 @@ button {
 }
 
 .services_section {
+  content:""
+  position:absolute;
+  left:0;
+  top:0;
   width: 100%;
+  height:100%;
   float: left;
   padding-bottom: 90px;
+  /* background-image: url("../images/bg1.jpg");
+  background-size: cover;
+  background-position::center;
+  background-repeat: no-repeat;
+  opacity:0.7;
+  padding:0;
+  margin:0; */
 }
 .services_section 1 {
   width: 100%;
@@ -715,7 +727,6 @@ a:hover {
   background-image: url(https://cdn-koccl.nitrocdn.com/MJtVxKyemDvALymLuhPCqurAikADofrp/assets/images/optimized/rev-ee7051a/darpanfurnishings.com/wp-content/uploads/2021/05/vippng.com-stage-curtains-png.png);
   opacity: 0.9;
   background-color: rgb(195, 175, 164);
-  
 }
 
 .who_taital {
@@ -1146,7 +1157,7 @@ textarea#comment::placeholder {
 .copyright_section {
   width: 100%;
   float: left;
-  background-color: #ffffff;
+  background-color: white;
   height: auto;
 }
 
